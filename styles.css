@@ -422,6 +422,15 @@ body {
     gap: 28px;
   }
 
+  .split--about > :first-child {
+    order: 1;
+  }
+
+  .about-photo {
+    order: 2;
+    width: 100%;
+  }
+
   .about-photo {
     justify-content: flex-start;
   }
