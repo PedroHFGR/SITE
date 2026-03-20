@@ -378,15 +378,65 @@ body {
 
 @media (max-width: 720px) {
   .hero {
+    padding: 32px 6vw 56px;
+  }
+
+  .hero {
     padding-top: 28px;
   }
 
   .nav {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 12px 20px;
+  }
+
+  .hero__content {
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .hero__copy h1 {
+    font-size: clamp(2rem, 7vw, 2.6rem);
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .panel {
+    max-width: 100%;
+  }
+
+  .section {
+    padding: 56px 6vw;
+  }
+
+  .section--split {
+    padding: 72px 6vw;
+  }
+
+  .split--about {
+    grid-template-columns: 1fr;
+    gap: 28px;
   }
 
   .about-photo {
     justify-content: flex-start;
+  }
+
+  .about-photo img {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .card {
+    min-height: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
