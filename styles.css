@@ -422,13 +422,13 @@ body {
     gap: 28px;
   }
 
-  .split--about > :first-child {
+  .about-photo {
     order: 1;
+    width: 100%;
   }
 
-  .about-photo {
+  .split--about > :first-child {
     order: 2;
-    width: 100%;
   }
 
   .about-photo {
