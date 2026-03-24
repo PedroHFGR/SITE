@@ -63,7 +63,15 @@ body {
   letter-spacing: 0.05em;
   position: relative;
   overflow: hidden;
-  background: #0d0b09 url("adv.png") center/cover no-repeat;
+  background-color: #0d0b09;
+  background-image: url("adv.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.brand__mark::after {
+  content: none;
 }
 
 
