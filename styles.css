@@ -65,21 +65,16 @@ body {
   overflow: hidden;
 }
 
-.brand__mark img {
+.brand__mark::after {
+  content: "";
   position: absolute;
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  object-fit: cover;
   bottom: 2px;
   right: 2px;
   border: 1px solid var(--gold);
-  background: #0d0b09;
-}
-
-.brand__mark span {
-  position: relative;
-  z-index: 1;
+  background: #0d0b09 url("adv.png") center/cover no-repeat;
 }
 
 .brand__photo {
