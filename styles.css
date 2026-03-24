@@ -61,6 +61,25 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.2rem;
   letter-spacing: 0.05em;
+  position: relative;
+  overflow: hidden;
+}
+
+.brand__mark img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  object-fit: cover;
+  bottom: 2px;
+  right: 2px;
+  border: 1px solid var(--gold);
+  background: #0d0b09;
+}
+
+.brand__mark span {
+  position: relative;
+  z-index: 1;
 }
 
 .brand__photo {
